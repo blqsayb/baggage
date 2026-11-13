@@ -755,7 +755,7 @@ class _DashedDivider extends StatelessWidget {
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
 
-  final String _repoUrl = 'https://github.com/yourusername/baggage';
+  final String _repoUrl = 'https://github.com/blqsayb/baggage.git';
 
   Future<void> _openGitHub(BuildContext context) async {
     final uri = Uri.parse(_repoUrl);
