@@ -108,7 +108,7 @@ class _MainShellState extends State<MainShell> {
         child: NavigationBar(
           height: 65,
           backgroundColor: AppColors.cardSurface,
-          indicatorColor: AppColors.accentCoral.withOpacity(0.15),
+          indicatorColor: AppColors.accentCoral.withValues(alpha: 0.15),
           selectedIndex: _selectedIndex,
           onDestinationSelected: (index) => setState(() => _selectedIndex = index),
           destinations: const [
@@ -228,7 +228,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   Container(
                     padding: const EdgeInsets.all(8),
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.12),
+                      color: Colors.white.withValues(alpha: 0.12),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: const Icon(Icons.flight_takeoff_rounded, color: AppColors.accentCoral, size: 22),
@@ -333,7 +333,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                       hintText: 'e.g. 25.5',
                       suffixText: 'kg',
                       filled: true,
-                      fillColor: AppColors.warmSand.withOpacity(0.6),
+                      fillColor: AppColors.warmSand.withValues(alpha: 0.6),
                       prefixIcon: const Icon(Icons.luggage, color: AppColors.primaryTeal),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),
@@ -368,7 +368,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                       hintText: 'e.g. 18.00',
                       prefixText: 'RM ',
                       filled: true,
-                      fillColor: AppColors.warmSand.withOpacity(0.6),
+                      fillColor: AppColors.warmSand.withValues(alpha: 0.6),
                       prefixIcon: const Icon(Icons.sell_outlined, color: AppColors.primaryTeal),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),
@@ -469,7 +469,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   border: Border.all(color: AppColors.borderLight),
                   boxShadow: [
                     BoxShadow(
-                      color: AppColors.primaryTeal.withOpacity(0.06),
+                      color: AppColors.primaryTeal.withValues(alpha: 0.06),
                       blurRadius: 16,
                       offset: const Offset(0, 6),
                     ),
@@ -817,7 +817,7 @@ class AboutScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 14),
                 const Text(
-                  'Baggy · Baggage Fee Estimator',
+                  'Baggage Fee Estimator',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.w800,
@@ -828,7 +828,7 @@ class AboutScreen extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
                   decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.12),
+                    color: Colors.white.withValues(alpha: 0.12),
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: const Text(
@@ -932,7 +932,7 @@ class AboutScreen extends StatelessWidget {
           ),
           const SizedBox(height: 4),
           const Text(
-            'Mobile Technology Individual Assignment · Baggage Fee Estimator App',
+            'ICT602 Mobile Technology and Development · Baggage Fee Estimator App',
             style: TextStyle(color: AppColors.mutedSlate, fontSize: 11),
           ),
         ],
