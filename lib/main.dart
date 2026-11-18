@@ -57,7 +57,7 @@ class BaggageEstimatorApp extends StatelessWidget {
 }
 
 // ─── Main Shell with Custom Navigation ───
-class MainShell extends StatefulWidget {
+class MainShell extends StatefulWidget { //guna stateful widget sebab nak tukar screen bila tekan button
   const MainShell({super.key});
 
   @override
@@ -151,7 +151,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
   bool _hasCalculated = false;
 
   @override
-  void dispose() {
+  void dispose() { //untuk clear memory bila dah tak guna controller
     _weightController.dispose();
     _rateController.dispose();
     super.dispose();
@@ -184,7 +184,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
     );
   }
 
-  void _resetForm() {
+  void _resetForm() { //untuk reset form bila tekan button reset
     _formKey.currentState?.reset();
     _weightController.clear();
     _rateController.clear();
@@ -344,7 +344,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                         borderSide: const BorderSide(color: AppColors.primaryTeal, width: 1.5),
                       ),
                     ),
-                    validator: (value) {
+                    validator: (value) { //kalau tak isi weight, rate, atau isi bukan number, dia akan keluar error message
                       if (value == null || value.trim().isEmpty) {
                         return 'Enter checked baggage weight';
                       }
@@ -365,7 +365,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                     ],
                     decoration: InputDecoration(
                       labelText: 'Excess Rate per kg',
-                      hintText: 'e.g. 18.00',
+                      hintText: 'e.g. 15.00',
                       prefixText: 'RM ',
                       filled: true,
                       fillColor: AppColors.warmSand.withValues(alpha: 0.6),
@@ -424,7 +424,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
             Row(
               children: [
                 OutlinedButton(
-                  onPressed: _resetForm,
+                  onPressed: _resetForm, //reset form
                   style: OutlinedButton.styleFrom(
                     foregroundColor: AppColors.primaryTeal,
                     side: const BorderSide(color: AppColors.borderLight, width: 1.5),
@@ -817,7 +817,7 @@ class AboutScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 14),
                 const Text(
-                  'Baggage Fee Estimator',
+                  'AeroWeigh',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.w800,
