@@ -89,6 +89,6 @@ $$\text{Total Payable (RM)} = \text{Excess Charge} + \text{Service Tax}$$
    ```
 ## Developer Information:
 
-Name: Nur Balqis Binti Md Ayub
-Course: Bachelor of Computer Science (Netcentric Computing)
-Repository Link: github.com/blqsayb/baggage      
+- Name: Nur Balqis Binti Md Ayub
+- Course: Bachelor of Computer Science (Netcentric Computing)
+- Repository Link: github.com/blqsayb/baggage      
