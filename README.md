@@ -87,28 +87,6 @@ $$\text{Total Payable (RM)} = \text{Excess Charge} + \text{Service Tax}$$
    ```bash
    flutter test
    ```
-## Developer Information:
-
-<<<<<<< HEAD
----
-
-## 📂 Project Structure
-
-```text
-baggage/
-├── android/               # Native Android configuration & mipmaps
-├── assets/
-│   ├── icon/              # 1024x1024 master app icon
-│   └── images/            # In-app image assets
-├── lib/
-│   └── main.dart          # Core app UI, calculator logic, & navigation
-├── test/
-│   └── widget_test.dart   # Smoke and render tests
-├── pubspec.yaml           # App dependencies & asset declarations
-└── README.md              # Project documentation
-```
-
----
 
 ## 👩‍💻 Developer Information
 
@@ -117,16 +95,4 @@ baggage/
 | **Name** | Nur Balqis Binti Md Ayub |
 | **Matric No** | 2025228256 |
 | **Programme** | Bachelor of Computer Science (Netcentric Computing) |
-| **Course** | Mobile Technology · Air Travel Baggage Fee Estimator |
 | **Repository** | [github.com/blqsayb/baggage](https://github.com/blqsayb/baggage.git) |
-
----
-
-## 📄 Academic Coursework
-
-This application was developed as an individual assignment for the **Mobile Technology** course.
-=======
-- Name: Nur Balqis Binti Md Ayub
-- Course: Bachelor of Computer Science (Netcentric Computing)
-- Repository Link: github.com/blqsayb/baggage      
->>>>>>> 896833afa95bfe332ab15c1fa991531b4813a5b0
