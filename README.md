@@ -1,8 +1,8 @@
-# ✈️ Baggage Fee Estimator
+# ✈️ AeroWeigh . Baggage Fee Estimator
 
 An intuitive, aviation-themed Flutter mobile application designed to calculate excess airline baggage charges, apply statutory service tax (SST), and generate itemized digital boarding-pass receipts.
 
-Developed as a coursework project for **Mobile Technology (Air Travel Baggage Fee Estimator)**.
+Developed as a coursework individual project for **ICT602 - Mobile Technology and Development**.
 
 ## ✨ Features
 
@@ -87,7 +87,9 @@ $$\text{Total Payable (RM)} = \text{Excess Charge} + \text{Service Tax}$$
    ```bash
    flutter test
    ```
+## Developer Information:
 
+<<<<<<< HEAD
 ---
 
 ## 📂 Project Structure
@@ -123,3 +125,8 @@ baggage/
 ## 📄 Academic Coursework
 
 This application was developed as an individual assignment for the **Mobile Technology** course.
+=======
+- Name: Nur Balqis Binti Md Ayub
+- Course: Bachelor of Computer Science (Netcentric Computing)
+- Repository Link: github.com/blqsayb/baggage      
+>>>>>>> 896833afa95bfe332ab15c1fa991531b4813a5b0
