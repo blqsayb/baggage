@@ -330,7 +330,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                     ],
                     decoration: InputDecoration(
                       labelText: 'Total Checked Weight',
-                      hintText: 'e.g. 25.5',
+                      hintText: 'e.g. 25.5 (max 200 kg)',
                       suffixText: 'kg',
                       filled: true,
                       fillColor: AppColors.warmSand.withValues(alpha: 0.6),
@@ -351,6 +351,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                       final num = double.tryParse(value);
                       if (num == null) return 'Invalid number format';
                       if (num <= 0) return 'Weight must exceed 0 kg';
+                      if (num > 200) return 'Weight cannot exceed 200 kg';
                       return null;
                     },
                   ),

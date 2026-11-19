@@ -104,3 +104,22 @@ baggage/
 │   └── widget_test.dart   # Smoke and render tests
 ├── pubspec.yaml           # App dependencies & asset declarations
 └── README.md              # Project documentation
+```
+
+---
+
+## 👩‍💻 Developer Information
+
+| Field | Details |
+| :--- | :--- |
+| **Name** | Nur Balqis Binti Md Ayub |
+| **Matric No** | 2025228256 |
+| **Programme** | Bachelor of Computer Science (Netcentric Computing) |
+| **Course** | Mobile Technology · Air Travel Baggage Fee Estimator |
+| **Repository** | [github.com/blqsayb/baggage](https://github.com/blqsayb/baggage.git) |
+
+---
+
+## 📄 Academic Coursework
+
+This application was developed as an individual assignment for the **Mobile Technology** course.
